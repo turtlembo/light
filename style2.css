@@ -4,6 +4,7 @@
     font-size: 18px;
     color: white;
     font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 body{
@@ -20,12 +21,11 @@ body{
 .item{
     width: 300px;
     height: 48px;
-    text-align: center;
-    display:block;
+    display: block;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 .item .i{
-    display:block;
     position: relative;
     float: right;
     width: 50px;
