@@ -53,6 +53,9 @@ form input[type="password"]{
     display: block;
     margin: 5px 0 18px;
 }
+form input[type="checkbox"]{
+    accent-color:rgb(35, 173, 147);
+}
 form input[type="checkbox"]+label{
     font-size: 14px;
     vertical-align: 2px;
