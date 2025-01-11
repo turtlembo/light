@@ -14,7 +14,9 @@ body{
 .section{
     width: 400px;
     height: 500px;
-    background-image: linear-gradient(45deg, rgb(74,47,176) 40%, rgb(179,106,211) 100%);
+    background-image: linear-gradient(45deg, rgba(74,47,176,0.9) 40%, rgba(179,106,211,0.9) 100%),url(img/photo_5470107302540470813_x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
